@@ -1,0 +1,93 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=blue,
+    pdftitle={Portfolio Project Report}
+}
+
+\title{\textbf{Computer Science Portfolio Project Report}\\
+\large Application for Working Student Position}
+\author{\textbf{Karandeep Singh}}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+This report explains the design and structure of my computer science portfolio website. I created this portfolio for my application for a working student position. It showcases my technical skills, projects and tools used for the portfolio .
+
+\section{Project Links}
+You can view the live portfolio website and access all source code using the following links:
+\begin{itemize}
+    \item \textbf{Live Portfolio Website:} \url{https://karandeep6595-maker.github.io/CS-Lab-Project/}
+    \item \textbf{GitHub Repository:} \url{https://github.com/karandeep6595-maker/CS-Lab-Project}
+\end{itemize}
+
+\section{Structure of the Portfolio and Repository}
+
+\subsection{GitHub Repository Layout}
+
+\begin{itemize}
+    \item \texttt{index.html} -- The main code file for the website homepage.
+    \item \texttt{MyCV.pdf} -- The compiled resume PDF file available for direct download.
+    \item \texttt{resume.tex and report.tex} -- contains the LaTeX code for the resume and this report 
+\end{itemize}
+
+\subsection{Website Structure}
+The website is a single-page site designed to be read smoothly from top to bottom:
+\begin{enumerate}
+    \item \textbf{Header \& Intro:} Introduces who I am, my current studies, and my interest in software development.
+    \item \textbf{Technical Skills:} Groups my technical abilities into clear categories like programming languages, tools, and databases.
+    \item \textbf{Featured Projects:} Highlights key software and database projects with descriptions, tags for used technologies, and GitHub repository links.
+    \item \textbf{Curriculum Vitae:} A button with witch visitors can download my CV with one click.
+\end{enumerate}
+
+\section{Design Choices}
+When building this portfolio, I made several clear design decisions to keep it practical and user-friendly:
+
+\begin{itemize}
+    \item \textbf{Simple Single-Page Layout:} I chose a single-page design so recruiters or hiring managers do not have to click through multiple pages. Everything is visible by scrolling.
+    \item \textbf{Direct CV Download:} Placing \texttt{MyCV.pdf} in the root folder alongside \texttt{index.html} makes the file path simple and prevents broken download links.
+\end{itemize}
+
+\section{Tools and Technologies Used}
+I used the following tools to construct and host the portfolio:
+
+\begin{itemize}
+    \item \textbf{HTML5 \& CSS3:} Used to build the webpage.
+    \item \textbf{GitHub Pages:} Used to host the website for free directly from the GitHub repository.
+    \item \textbf{Git \& GitHub:} Used for version control to track changes and store code online.
+    \item \textbf{\LaTeX:} Used to write and format both my resume and this project report cleanly.
+\end{itemize}
+
+\section{Reflection: Strengths, Weaknesses, and Future Plans}
+
+\subsection{Strengths}
+\begin{itemize}
+    \item \textbf{Fast and Lightweight:} The site loads fast because it does not rely on heavy external libraries.
+    \item \textbf{Clear Organization:} The GitHub repository and code are easy to read and maintain.
+\end{itemize}
+
+\subsection{Weaknesses}
+\begin{itemize}
+    \item \textbf{Static Content:} Everything on the site is written manually in HTML.
+    \item \textbf{Basic Interactivity:} The site focuses on presenting information rather than complex dynamic features.
+\end{itemize}
+
+\subsection{Future Improvements}
+In the future, I plan to improve the portfolio by adding:
+\begin{enumerate}
+    \item \textbf{GitHub API Integration:} Automatically fetch my latest GitHub repositories and commit history so projects update by themselves.
+    \item \textbf{Interactive Project Demos:} Include live, runnable project demos directly inside the webpage.
+\end{enumerate}
+
+\end{document}
