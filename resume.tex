@@ -1,0 +1,95 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+\usepackage{tabularx}
+
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Curriculum Vitae},
+    pdfpagemode=UseNone
+}
+
+\titleformat{\section}{\large\bfseries\uppercase}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{6pt}
+
+\setlist[itemize]{leftmargin=1.5em, itemsep=2pt, topsep=2pt, parsep=0pt}
+
+\pagestyle{empty} 
+
+\begin{document}
+
+
+% HEADER
+
+\begin{center}
+    {\Huge \textbf{Karandeep Singh}}\\[0.4em]
+    \small Berlin, Germany \quad$\cdot$\quad \href{mailto:karandeep@gmail.com}{karandeep@gmail.com} \quad$\cdot$\quad +49 15215416\\[0.2em]
+    \small \href{https://github.com/karandeep6595-maker/CS-Lab-Project.git}{github.com/karandeep6595} \quad$\cdot$\quad \url{www.linkedin.com/in/karandeep-singh-gisma} \href{https://karandeep6595-maker.github.io/CS-Lab-Project/}{karandeep.github.io/portfolio}
+\end{center}
+
+\vspace{-0.5em}
+
+
+% EDUCATION
+
+\section{Education}
+
+\begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{Bachelor of Science in Computer Science} & Sep 2025 -- Present \\
+    University Name -- Gisma University of Applied Sciences,Berlin, Germany & \\
+\end{tabularx}
+\begin{itemize}
+    \item course: Software Engineering, Database Systems, Data Structures \& Algorithms.
+\end{itemize}
+
+% Technical skills
+
+\section{Technical Skills}
+
+\begin{description}[font=\normalfont\bfseries, leftmargin=0pt, style=sameline, itemsep=2pt]
+    \item[Languages:] Python, SQL, HTML, CSS, JavaScript
+    \item[Databases \& Storage:] MySQL, Relational Database Design
+\end{description}
+
+
+% PROJECTS
+
+\section{Technical Projects}
+
+\begin{tabularx}{\textwidth}{@{}X r@{}}
+    \textbf{E-Commerce Relational Database System} \quad|\quad \textit{SQL, MySQL} & Apr 2026 \\
+\end{tabularx}
+\begin{itemize}
+    \item Designed a 3NF normalized schema managing users, inventory, orders, and payment tracking.
+    \item Developed stored procedures and indexed key queries to ensure low-latency data access.
+\end{itemize}
+
+\vspace{0.4em}
+
+
+% EXPERIENCE
+
+\section{Experience}
+
+\begin{itemize}
+    \item Developed a basic working web prototype health page for a startup with the help of css and HTMl.
+\end{itemize}
+
+
+% LANGUAGES
+
+\section{Languages}
+
+\begin{description}[font=\normalfont\bfseries, leftmargin=0pt, style=sameline, itemsep=2pt]
+    \item[English:] Native / Professional Proficiency
+    \item[German:] Intermediate (B1)
+\end{description}
+
+\end{document}
